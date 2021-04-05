@@ -1,15 +1,33 @@
 
-h1{
-font-family: small;'Raleway', sans-serif;  
-color:#0065FC
+.container h1{
+  	flex-direction: row ltr
+  	flex-wrap: nowrap;
 }
-a {
-	text-align:right;
-}
-em {
-font-family: small; 'Raleway', sans-serif; 
+.item h1{
+   font-family: 'Raleway', sans-serif;  
 }
 
+.container nav{
+	flex-direction: row;   
+}
+.item a{
+	order: 3;
+	flex-grow: 1;
+	font-family: 
+}
+.container div {
+	 flex-direction: row;
+	 flex-wrap: wrap;
+	 justify-content: flex-start;
+	 align-content: flex-start;
+}
+.item span {
+	
+}
+
+
+font-family: small; 'Raleway', sans-serif; 
+}
 
 i {
 color: blue; 
